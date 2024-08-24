@@ -1,1 +1,7 @@
-@import url("./modules/tailwind.scss");
+@import url("configurations/tailwind.scss");
+@import url("themes/light.scss");
+@import url("themes/dark.scss");
+@import url("themes/colors.scss");
+@import url("components/global.scss");
+@import url("components/body.scss");
+
