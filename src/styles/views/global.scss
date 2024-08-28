@@ -1,0 +1,21 @@
+@mixin light-theme {
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --primary-text-color: #{$primary-text-color};
+    --secondary-text-color: #{$secondary-text-color};
+}
+
+@mixin dark-theme {
+    --primary-color: #{$dark-primary-color};
+    --secondary-color: #{$dark-secondary-color};
+    --primary-text-color: #{$dark-primary-text-color};
+    --secondary-text-color: #{$dark-secondary-text-color};
+}
+
+:root {
+    @include light-theme;
+}
+
+[data-theme="dark"] {
+    @include dark-theme;
+}

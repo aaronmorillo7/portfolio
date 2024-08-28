@@ -1,7 +1,4 @@
-@import url("configurations/tailwind.scss");
-@import url("themes/light.scss");
-@import url("themes/dark.scss");
-@import url("themes/colors.scss");
-@import url("components/global.scss");
-@import url("components/body.scss");
-
+@import "configurations/tailwind.scss";
+@import "colors/index.scss";
+@import "components/index.scss";
+@import "views/index.scss";

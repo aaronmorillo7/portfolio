@@ -1,7 +1,10 @@
 <template>
-    <main class="w-full flex justify-center text-blue-600">
-        <section>
+    <section>
+        <div>
             Home page
-        </section>
-    </main>
+        </div>
+    </section>
 </template>
+<script lang="ts" setup>
+
+</script>
