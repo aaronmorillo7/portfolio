@@ -1,3 +1,12 @@
 body {
     background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+.main-layout {
+    @apply w-full flex justify-center;
+
+    &__container--primary {
+        @apply w-full lg:max-w-7xl;
+    }
 }

@@ -1,10 +1,10 @@
 <template>
-    <section>
+    <main>
         <div>
             Home page
         </div>
-    </section>
+    </main>
 </template>
-<script lang="ts" setup>
+<script setup>
 
 </script>

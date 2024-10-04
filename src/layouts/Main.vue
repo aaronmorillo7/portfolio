@@ -1,8 +1,10 @@
 <template>
-<section class="body">
-    <Header />
-    <router-view></router-view>
-    <Footer />
+<section class="body main-layout">
+    <div class="main-layout__container--primary">
+        <Header />
+        <router-view></router-view>
+        <Footer />
+    </div>
 </section>
 </template>
 <script lang="ts" setup>
