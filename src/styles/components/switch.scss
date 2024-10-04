@@ -1,0 +1,19 @@
+.switch { 
+    @apply rounded-full p-1 w-16; 
+
+    &--on {
+        background-color: var(--secondary-color);
+    }
+
+    &--off {
+        background-color: var(--secondary-text-color);
+    }
+
+    &__dot {
+        @apply rounded-full bg-white transition-transform duration-300 w-7 h-7;
+
+        &--on {
+            @apply translate-x-full;
+        }
+    }
+}
