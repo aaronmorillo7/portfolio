@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  base: process.env.VITE_APP_BASE_URL || "/portfolio/",
+  base: process.env.VITE_APP_BASE_URL || "/",
   plugins: [vue(), vueDevTools()],
   css: {
     preprocessorOptions: {
